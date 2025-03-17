@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <video autoplay muted loop>
+        <source src="fondo2.mp4" type="video/mp4">
+      </video>
+    <style>
+
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #9b8d4cac;
+}
+
+header {
+    background: #bfb473ad;
+    color: rgb(7, 7, 7);
+    padding: 20px;
+}
+
+video {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       width: 100vw;
+       height: 50vw;
+       object-fit: cover;
+       z-index: -1;
+    }
+ a {
+    margin-right: 2px;
+    margin-left: 1px;
+    top: 20px;
+    text-decoration: none;
+    position: absolute;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(248, 248, 248, 0.559);
+    right: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.878);
+    -webkit-text-fill-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    background: rgba(255, 255, 255, 0.584);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #080808;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #e65c00;
+}
+
+
+footer {
+    background: #aea6a6a1;
+    color: rgba(255, 255, 255, 0.585);
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Productos</title>
+</head>
+    <a href="proyecto.html">Regresar al Inico</a>
+<body>
+
+    <header>
+
+        <h1>Tienda de Productos</h1>
+        
+        <p>Los mejores productos al mejor precio</p>
+    </header>
+
+    <section class="container">
+        <div class="product">
+            <img src="producto1.jpeg" alt="Producto 1">
+            <h2>Aceite de coco</h2>
+            <p>perfecto para tu piel.</p>
+            <span class="price">$49</span>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="product">
+            <img src="producto2.jpeg" alt="Producto 2">
+            <h2>Aceite de aloe vera</h2>
+            <p>Perfeco para refrescar tu piel</p>
+            <span class="price">$79</span>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+
+        <div class="product">
+            <img src="producto3.jpeg" alt="Producto 3">
+            <h2>Leche de burra</h2>
+            <p>Aclaramiento de piel en un 97%.</p>
+            <span class="price">$100</span>
+            <a href="#" class="btn">Comprar</a>
+        </div>
+    </section>
+
+    <footer>
+        <br>
+        <p>Tienda de Productos Hotel_Prisma.</p>
+    </footer>
+
+</body>
+</html>

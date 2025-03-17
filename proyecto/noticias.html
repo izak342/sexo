@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <h1><marquee>Noticias importantes.Noticias importantes.Noticias importantes.Noticias importantes.</marquee></h1>
+    <a href="proyecto.html">Regresar al Inicio</a>
+    <title>Noticias</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #00000066;
+        }
+
+        a {
+            margin-left: 75%;
+            text-decoration: none;
+            top: 20px;
+            position: absolute;
+            padding: 10px;
+            border-radius: 50px;
+            background-color: rgba(234, 236, 223, 0.593);
+            right: 5px;
+            -webkit-text-fill-color: black;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.878);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        video {
+            width: 50%;
+            margin-left: 50;
+            margin-top: 20;
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body>
+
+    <video id="miVideo" controls>
+        <source src="noticia1.mp4" type="video/mp4">
+    </video>
+    <script>
+        var video = 
+        document.getElementById("miVideo");
+        video.volume =1.0;
+        video.muted = false
+    </script>
+</body>
+</html>

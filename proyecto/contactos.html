@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <video autoplay muted loop>
+        <source src="fondo2.mp4" type="video/mp4">
+      </video>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+         
+            color: rgb(0, 0, 0);
+        }
+
+        video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100vw;
+            height: 50vw;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        header {
+            background: rgba(122, 111, 55, 0.6);
+            padding: 30px;
+        }
+
+        .button a {
+            margin-right: 2px;
+            margin-left: 1px;
+            text-decoration: none;
+            top: 20px;
+            position: absolute;
+            padding: 10px;
+            border-radius: 50px;
+            background-color: rgba(240, 248, 255, 0.398);
+            right: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.878);
+            -webkit-text-fill-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+                
+            
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        
+        p {
+            font-size: 18px;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+        }
+
+        
+        .bienvenido {
+            background: rgba(108, 106, 5, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+        }
+        
+        
+        footer {
+            background: rgba(219, 208, 87, 0.7);
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a Hotel Prisma</title>
+</head>
+<body>
+    <header>
+         <div class="button">
+  <a href="proyecto.html">Regresar al Inico</a>
+    </div>
+        <h1>Bienvenido a Hotel Prisma</h1>
+        <p>Donde el lujo y la comodidad se encuentran</p>
+    </header>
+   
+    
+    <section class="container">
+        <div class="bienvenido">
+            <h2>Descansa en la mejor experiencia</h2>
+            <p>Contactanos y reserva ya!! 😊
+                <br>
+                <br>
+                whatsapp:
+                +52 720-416-2936
+
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Hotel Prisma. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
